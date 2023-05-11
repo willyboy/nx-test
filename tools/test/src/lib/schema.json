@@ -1,0 +1,16 @@
+{
+  "cli": "nx",
+  "$id": "add-feature-to-project",
+  "type": "object",
+  "properties": {
+    "test": {
+      "type": "string",
+      "description": "something",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      }
+    }
+  },
+  "required": []
+}

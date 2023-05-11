@@ -9,6 +9,10 @@
       }
     }
   },
+  "cli": {
+    "defaultCollection": "@test-nx/tools/test",
+    "packageManager": "npm"
+  },
   "targetDefaults": {
     "build": {
       "dependsOn": ["^build"],

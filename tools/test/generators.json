@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "tools",
+  "version": "14.4.0",
+  "extends": ["@nrwl/angular", "@schematics/angular", "@nrwl/workspace"],
+  "schematics": {},
+  "generators": {
+    "test": {
+      "factory": "./src/lib/tools-test",
+      "schema": "./src/lib/schema.json",
+      "description": "stuff"
+    }
+  }
+}

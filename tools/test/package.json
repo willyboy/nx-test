@@ -1,0 +1,11 @@
+{
+  "name": "@fmr-ap158557/tools-nx-plugin",
+  "version": "14.4.84",
+  "main": "src/index.js",
+  "schematics": "./generators.json",
+  "generators": "./generators.json",
+  "dependencies": {
+    "msw": "0.39.2",
+    "tsc-alias": "^1.7.0"
+  }
+}
